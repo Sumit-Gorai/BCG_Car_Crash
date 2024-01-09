@@ -1,0 +1,23 @@
+DATASETS:
+  Charges: resources/Datasets/Charges_use.csv
+  Damages: resources/Datasets/Damages_use.csv
+  Endorse: resources/Datasets/Endorse_use.csv
+  Primary_Person: resources/Datasets/Primary_Person_use.csv
+  Units: resources/Datasets/Units_use.csv
+  Restrict: resources/Datasets/Restrict_use.csv
+
+OUTPUT:
+  1: resources/Output/Analysis1
+  2: resources/Output/Analysis2
+  3: resources/Output/Analysis3
+  4: resources/Output/Analysis4
+  5: resources/Output/Analysis5
+  6: resources/Output/Analysis6
+  7: resources/Output/Analysis7
+  8: resources/Output/Analysis8
+
+FORMAT:
+  Output: parquet
+
+MODE:
+  Output: overwrite
